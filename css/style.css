@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+   
+  body {
+    background-color:#9df2cd;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  main {
+      padding: 2% 5%;
+  }
+
+  .headerSection {
+      font-weight: 700;
+      color: #000016;
+  }
+
+  h1 {
+      width: 100%;
+      font-size: 4.2em;
+      font-weight: 900;
+      display: inline-block;
+      text-align: center;
+      margin: 1em 0;
+      transition: all .5s linear;
+  }
+
+  .headerParagraf {
+      text-align: center;
+      font-size: 2.5em;
+      font-weight: 600;
+      margin-bottom: 2em;
+      transition: all .5s linear;
+  }
+
+  input {
+      width: 98%;
+      height: 40px;
+      font-size: 1.5em;
+      margin-bottom: 2em;
+      transition: all .5s linear;
+  }
+
+  #output {
+      display: none;
+  }
+
+  h4 {
+      font-size: 3.4em;
+      font-weight: 100;
+      display: block;
+      text-align: center;
+      margin-bottom: .5em;
+      transition: all .5s linear;
+  }
+
+  #factText {
+    font-size: 2.5em;
+    font-weight: 200;
+    padding-bottom: 2em;
+    text-align: justify;
+    transition: all .5s linear;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  body {
+    background-color:#77f4be;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  main {
+      padding: 5%;
+  }
+
+  .headerSection {
+      font-weight: 700;
+      color: #000016;
+  }
+
+  h1 {
+      width: 100%;
+      font-size: 4.2em;
+      font-weight: 900;
+      display: inline-block;
+      text-align: center;
+      margin: 1em 0;
+      transition: all .5s linear;
+  }
+
+  .headerParagraf {
+      text-align: center;
+      font-size: 2.5em;
+      font-weight: 600;
+      margin-bottom: 2em;
+      transition: all .5s linear;
+  }
+
+  input {
+      width: 98%;
+      height: 40px;
+      font-size: 1.5em;
+      margin-bottom: 2em;
+      transition: all .5s linear;
+  }
+
+  #output {
+      display: none;
+  }
+
+  h4 {
+      font-size: 3.4em;
+      font-weight: 100;
+      display: block;
+      text-align: center;
+      margin-bottom: .5em;
+      transition: all .5s linear;
+  }
+
+  #factText {
+    font-size: 2.5em;
+    font-weight: 200;
+    padding-bottom: 2em;
+    text-align: justify;
+    transition: all .5s linear;
+  }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    body {
+      background-color:#2fef99;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    main {
+        padding: 2% 5%;
+    }
+
+    .headerSection {
+        font-weight: 700;
+        color: #000016;
+    }
+
+    h1 {
+        width: 100%;
+        font-size: 4.2em;
+        font-weight: 900;
+        display: inline-block;
+        text-align: center;
+        margin: 1em 0;
+        transition: all .5s linear;
+    }
+
+    .headerParagraf {
+        text-align: center;
+        font-size: 2.5em;
+        font-weight: 600;
+        margin-bottom: 2em;
+        transition: all .5s linear;
+    }
+
+    input {
+        width: 98%;
+        height: 40px;
+        font-size: 1.5em;
+        margin-bottom: 2em;
+        transition: all .5s linear;
+    }
+
+    #output {
+        display: none;
+    }
+
+    h4 {
+        font-size: 3.4em;
+        font-weight: 100;
+        display: block;
+        text-align: center;
+        margin-bottom: .5em;
+        transition: all .5s linear;
+    }
+
+    #factText {
+      font-size: 2.5em;
+      font-weight: 200;
+      padding-bottom: 2em;
+      text-align: justify;
+      transition: all .5s linear;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    body {
+      background-color:#adad06;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    main {
+        padding: 2% 5%;
+    }
+
+    .headerSection {
+        font-weight: 700;
+        color: #000016;
+    }
+
+    h1 {
+        width: 100%;
+        font-size: 4.2em;
+        font-weight: 900;
+        display: inline-block;
+        text-align: center;
+        margin: 1em 0;
+        transition: all .5s linear;
+    }
+
+    .headerParagraf {
+        text-align: center;
+        font-size: 2.5em;
+        font-weight: 600;
+        margin-bottom: 2em;
+        transition: all .5s linear;
+    }
+
+    input {
+        width: 98%;
+        height: 40px;
+        font-size: 1.5em;
+        margin-bottom: 2em;
+        transition: all .5s linear;
+    }
+
+    #output {
+        display: none;
+    }
+
+    h4 {
+        font-size: 3.4em;
+        font-weight: 100;
+        display: block;
+        text-align: center;
+        margin-bottom: .5em;
+        transition: all .5s linear;
+    }
+
+    #factText {
+      font-size: 2.5em;
+      font-weight: 200;
+      padding-bottom: 2em;
+      text-align: justify;
+      transition: all .5s linear;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    body {
+      background-color:#c4c407;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    main {
+        padding: 2% 5%;
+    }
+
+    .headerSection {
+        font-weight: 700;
+        color: #000016;
+    }
+
+    h1 {
+        width: 100%;
+        font-size: 3.2em;
+        font-weight: 900;
+        display: inline-block;
+        text-align: center;
+        margin: 1em 0;
+        transition: all .5s linear;
+    }
+
+    .headerParagraf {
+        text-align: center;
+        font-size: 2.2em;
+        font-weight: 600;
+        margin-bottom: 2em;
+        transition: all .5s linear;
+    }
+
+    input {
+        width: 98%;
+        height: 40px;
+        font-size: 1.5em;
+        margin-bottom: 2em;
+        transition: all .5s linear;
+    }
+
+    #output {
+        display: none;
+    }
+
+    h4 {
+        font-size: 3.4em;
+        font-weight: 100;
+        display: block;
+        text-align: center;
+        margin-bottom: .5em;
+        transition: all .5s linear;
+    }
+
+    #factText {
+      font-size: 2.5em;
+      font-weight: 200;
+      padding-bottom: 2em;
+      text-align: justify;
+      transition: all .5s linear;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    body {
+      background-color:#dbdb08;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    main {
+        padding: 5%;
+    }
+
+    .headerSection {
+        font-weight: 700;
+        color: #000016;
+    }
+
+    h1 {
+        width: 100%;
+        font-size: 3.2em;
+        font-weight: 900;
+        display: inline-block;
+        text-align: center;
+        margin: 1em 0;
+        transition: all .5s linear;
+    }
+
+    .headerParagraf {
+        text-align: center;
+        font-size: 2.2em;
+        font-weight: 100;
+        margin-bottom: 2em;
+        transition: all .5s linear;
+    }
+
+    input {
+        width: 98%;
+        height: 40px;
+        font-size: 1.5em;
+        margin-bottom: 2em;
+        transition: all .5s linear;
+    }
+
+    #output {
+        display: none;
+    }
+
+    h4 {
+        font-size: 2.5em;
+        font-weight: 100;
+        display: block;
+        text-align: center;
+        margin-bottom: .5em;
+        transition: all .5s linear;
+    }
+
+    #factText {
+      font-size: 2.5em;
+      font-weight: 200;
+      padding-bottom: 2em;
+      text-align: justify;
+      transition: all .5s linear;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = to 480px
+  */
+  
+  @media (max-width: 480px) {
+    
+    body {
+        background-color:#f2f209;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    main {
+        padding: 5%;
+    }
+
+    .headerSection {
+        font-weight: 700;
+        color: #000016;
+    }
+
+    h1 {
+        width: 100%;
+        font-size: 2.2em;
+        font-weight: 900;
+        display: inline-block;
+        text-align: center;
+        margin: 1em 0;
+        transition: all .5s linear;
+    }
+
+    .headerParagraf {
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: 100;
+        margin-bottom: 2em;
+        transition: all .5s linear;
+    }
+
+    input {
+        width: 98%;
+        height: 40px;
+        font-size: 1.5em;
+        margin-bottom: 2em;
+        transition: all .5s linear;
+    }
+
+    #output {
+        display: none;
+    }
+
+    h4 {
+        font-size: 1.5em;
+        font-weight: 100;
+        display: block;
+        text-align: center;
+        margin-bottom: .5em;
+    }
+
+    #factText {
+      font-size: 1.5em;
+      font-weight: 200;
+      padding-bottom: 2em;
+      text-align: justify;
+    }
+    
+  }
